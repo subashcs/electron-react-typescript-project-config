@@ -1,0 +1,36 @@
+/* src/assets/css/app.css */
+
+/* Main CSS stylesheet */
+html,
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (prefers-color-scheme: light),
+  screen and (prefers-color-scheme: no-preference) {
+  /* Light moe */
+  body {
+    color: rgb(54, 118, 148);
+    background-color: rgb(182, 63, 63);
+  }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  /* Dark moe */
+  body {
+    color: rgb(194, 77, 77);
+    background-color: #000;
+  }
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 200;
+}
